@@ -35,7 +35,7 @@ const Skills = () => {
           <Col>
             <div className="skill-bx">
               <h2>Skills</h2>
-              <p>Some lorem ipsum text</p>
+              <p>My technical skills</p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
@@ -43,22 +43,27 @@ const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>HTML/CSS</h5>
                 </div>
 
                 <div className="item">
                   <img src={meter2} alt="Image" />
-                  <h5>Frontend Development</h5>
+                  <h5>JavaScript / TypeScript</h5>
                 </div>
 
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>Backend Development</h5>
+                  <h5>ReactJs / React Native</h5>
                 </div>
 
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>NextJs</h5>
+                </div>
+
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Backend (MERN) </h5>
                 </div>
               </Carousel>
             </div>
