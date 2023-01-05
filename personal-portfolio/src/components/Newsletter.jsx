@@ -1,9 +1,7 @@
-import { Alert } from "bootstrap";
 import React, { useEffect, useState } from "react";
-import { Col } from "react-bootstrap";
-import { Alarm } from "react-bootstrap-icons";
+import { Col, Row, Alert } from "react-bootstrap";
 
-const Newsletter = ({ subscribe, status, message }) => {
+const Newsletter = ({ status, message, onValidated }) => {
   const [email, setEmail] = useState("");
 
   useEffect(() => {
